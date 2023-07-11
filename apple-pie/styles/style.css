@@ -1,7 +1,7 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
-  box-sizing: border-box;
+  box-sizing: inherit ;
   font-size: 16px;
 }
 
@@ -9,16 +9,30 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
-}
-
 /*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
-}
-
 /* STYLES */
 /* Write your CSS below */
+
+body {
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: content-box;
+  width: 1000px;
+  padding: 30px;
+}
+
+div {
+  margin-left: 350px;
+}
+
+h1 {
+  background-image: url("images/apple-pie.jpg");
+  color: white;
+  text-align: center;
+  height: 400px;
+  padding-top: 250px;
+}
+
+#cooking-info {
+  text-align: left;
+}
